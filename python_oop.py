@@ -1,7 +1,7 @@
 """
 What is object-oriented programming?
-- in order to model our code or anything we'd lik to create wth the code
-- class, object, properties and methods
+in order to model our code or anything we'd lik to create wth the code
+class, object, properties and methods
 eg: class - a categery of something or things, eg a car, human, tree, bird, piano, computer
 and then each class has different objects, this is what makes it unique. eg i the class is human, the object could be 'name'
 as we all have different names, similarily we could have different heights
