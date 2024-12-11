@@ -26,5 +26,5 @@ class Dog:
     
     
     
-lily = Dog("Lily", )
+lily = Dog("Lily", 1)
 print(lily.greet())
