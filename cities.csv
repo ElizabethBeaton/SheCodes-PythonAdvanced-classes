@@ -1,4 +1,4 @@
-Lisbon,24
-Paris,30
-
-New York,23
+country,city,weather
+France,Paris,24
+Portugal,Lisbon,30
+Australia,Canberra,20
