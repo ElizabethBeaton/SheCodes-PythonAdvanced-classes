@@ -1,0 +1,82 @@
+Python Dictionaries:
+
+- used to store data values in key:value pais
+- is a collection which are unordered, changable and do not allow duplicates
+- written with curley brackets {}
+eg:
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
+
+- dictionary items are presented in key:value pairs, and can be reffered to by using the key name:
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
+
+this would print "brand"
+
+
+
+
+
+
+
+
+
+
+When to Use a List vs. a Dictionary!
+
+     Scenario	                                    Use a List	                                               Use a Dictionary
+You have data in a specific order	    A list is better because order is built-in.	          A dictionary doesn’t care about order (before Python 3.7).
+You need fast lookup by a name/key	    Lists require searching through all items.	          Dictionaries let you look up values directly by their key.
+You only care about the data itself	    Lists are simple and work well for basic data.	      Dictionaries are better for labeled data.
+You need to group related data	        Lists don’t group data; they’re for simple lists.	  Use dictionaries to describe relationships or properties.
+
+
+
+
+
+
+
+When to Use a List: 
+A list of students in a classroom:
+python
+
+students = ["Alice", "Bob", "Charlie"]
+print(students[1])  # Output: Bob
+
+Why? You don’t need labels, just the names in order.
+
+
+
+
+
+
+
+When to Use a Dictionary:
+Student information (name, age, grade):
+python
+
+student_info = {"name": "Alice", "age": 20, "grade": "A"}
+print(student_info["age"])  # Output: 20
+
+Why? Each piece of data is labeled, making it easy to understand and access.
+
+
+
+
+
+Key Takeaways:
+- Lists are like ordered containers for simple data.
+- Dictionaries are like labeled containers for more complex or related data.
+- Use lists when order matters or you don’t need labels.
+- Use dictionaries when you need labels to describe or organize the data.
